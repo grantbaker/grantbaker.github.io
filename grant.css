@@ -11,7 +11,22 @@ body {
 a:link, a:visited {
   color: #dfdfff;
   text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
 }
-a:hover, a:active {
+/*a:hover, a:active {
+  background-color: red;
+}*/
+
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table,th,td {
+  text-align: center;
+}
+
+tr:hover {
   background-color: red;
 }

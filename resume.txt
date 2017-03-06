@@ -1,0 +1,16 @@
+Grant Baker
+University of Colorado Boulder
+B.S./M.S. Applied Mathematics 2019
+
+grantbaker.co
+kb.grantbaker.co
+ghp.grantbaker.co
+contact@grantbaker.co
+
+#!/bin/python3
+
+from awesomelibrary import makepretty
+
+for item in accomplishments:
+    if item.isimportant():
+        print makepretty(item)
