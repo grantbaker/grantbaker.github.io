@@ -1,0 +1,17 @@
+body {
+  /*background-color: #4040bf;*/
+  background-color: #4001af;
+  font-family: "open sans", sans-serif;
+  font-size: 20px;
+  color: #dfdfff;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+a:link, a:visited {
+  color: #dfdfff;
+  text-decoration: none;
+}
+a:hover, a:active {
+  background-color: red;
+}
