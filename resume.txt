@@ -7,7 +7,7 @@ kb.grantbaker.co
 ghp.grantbaker.co
 contact@grantbaker.co
 
-#!/bin/python3
+#!/usr/bin/python3
 
 from awesomelibrary import makepretty
 
