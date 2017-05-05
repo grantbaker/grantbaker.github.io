@@ -1,6 +1,6 @@
 body {
   /*background-color: #4040bf;*/
-  background-color: #4001af;
+  background-color: #4000bf;
   font-family: "open sans", sans-serif;
   font-size: 20px;
   color: #dfdfff;
@@ -28,5 +28,5 @@ table,th,td {
 }
 
 tr:hover {
-  background-color: red;
+  background-color: #9900bb;
 }
