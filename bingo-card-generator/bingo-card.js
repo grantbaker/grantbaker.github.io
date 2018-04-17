@@ -14,12 +14,12 @@ var hardcodedStrings = ["Welcome to X on this most excellent of all Y",
 "Blind chance",
 "Any Russian word",
 "Being about X",
-"14",
-"15",
-"16",
-"17",
-"18",
-"19",
+"Westworld",
+"Harry Potter",
+"Lord of the Rings",
+"For those of you...",
+"Mentions conflict with Housing",
+"Mentions bowtie count",
 "20",
 "21",
 "22",
@@ -30,7 +30,7 @@ var usedNums = new Array(hardcodedStrings.length);
 
 function initAll() {
   if (document.getElementById) {
-    document.getElementById("reload").onclick = anotherCard;
+    // document.getElementById("reload").onclick = anotherCard;
     newCard();
 
   }
