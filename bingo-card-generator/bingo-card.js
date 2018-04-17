@@ -1,18 +1,19 @@
 window.onload = initAll;
 
+// do I even know javascript?
 var hardcodedStrings = ["Welcome to X on this most excellent of all Y",
 "\"Scot-ness\" of Scot (or similar)",
 "Ambitious without being competitive",
-"4",
-"5",
-"6",
-"7",
-"8",
-"9",
-"10",
-"11",
-"12",
-"13",
+"The great EHP experiment",
+"The greatest resource engineering students have is their peers",
+"And there you have that",
+"Deeply deeply",
+"What does it mean to X?",
+"And another thing",
+"Mentions integration over small life events",
+"Blind chance",
+"Any Russian word",
+"Being about X",
 "14",
 "15",
 "16",
@@ -31,6 +32,7 @@ function initAll() {
   if (document.getElementById) {
     document.getElementById("reload").onclick = anotherCard;
     newCard();
+
   }
   else{
     alert("Your browser does not support this script.");
@@ -55,6 +57,9 @@ function setSquare(thisSquare){
 
   usedNums[newNum] = true;
   document.getElementById(currentSquare).innerHTML =  hardcodedStrings[newNum];
+  document.getElementById(currentSquare).addEventListener("click", function() {
+    this.className = this.className == "white" ? "green" : "white";
+  });
 }
 
 function getNewNum() {
