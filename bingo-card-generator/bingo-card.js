@@ -20,11 +20,14 @@ var hardcodedStrings = ["Welcome to X on this most excellent of all Y",
 "For those of you...",
 "Mentions conflict with Housing",
 "Mentions bowtie count",
-"20",
-"21",
-"22",
-"23",
-"24"]
+"Dominate your exams",
+"Any Greek word, other than &#913&#915&#921&#927&#925 &#931&#922&#933&#914&#913&#923&#927&#925",
+"Greetings...",
+"HFFM",
+"Dating unit",
+"Emotional bandwidth or emotional units",
+"Speaks highly of 3 or more EHP alumni",
+"Failing better"]
 
 var usedNums = new Array(hardcodedStrings.length);
 
