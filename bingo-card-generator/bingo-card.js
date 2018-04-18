@@ -7,7 +7,7 @@ var hardcodedStrings = ["Welcome to X on this most excellent of all Y",
 "The great EHP experiment",
 "The greatest resource engineering students have is their peers",
 "And there you have that",
-"Deeply deeply",
+"\"Deeply deeply\"",
 "What does it mean to X?",
 "And another thing",
 "Mentions integration over small life events",
@@ -22,12 +22,13 @@ var hardcodedStrings = ["Welcome to X on this most excellent of all Y",
 "Mentions bowtie count",
 "Dominate your exams",
 "Any Greek word, other than &#913&#915&#921&#927&#925 &#931&#922&#933&#914&#913&#923&#927&#925",
-"Greetings...",
+"\"Totally\" as the only response to a student's answer",
 "HFFM",
 "Dating unit",
 "Emotional bandwidth or emotional units",
 "Speaks highly of 3 or more EHP alumni",
-"Failing better"]
+"Failing better",
+"\"SO, ...\" where \"so\" is 10x louder than the rest"]
 
 var usedNums = new Array(hardcodedStrings.length);
 
