@@ -37,7 +37,8 @@ var hardcodedStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "2 or more random/pointless EHP statistics or records",
 "\"I sincerely hope\"",
 "Any swear word",
-"\"Wasting valuable tuition dollars\""
+"\"Wasting valuable tuition dollars\"",
+"\"Beat the snot out of...\""
 ]
 
 var usedNums = new Array(hardcodedStrings.length);
