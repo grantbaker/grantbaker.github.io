@@ -39,7 +39,7 @@ var banquetStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "Any swear word",
 "\"Wasting valuable tuition dollars\"",
 "\"Beat the snot out of...\""
-]
+];
 
 var bbqStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "\"___-ness of ___\"",
@@ -61,7 +61,7 @@ var bbqStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "Any Greek word, other than &#913&#915&#921&#927&#925 &#931&#922&#933&#914&#913&#923&#927&#925",
 "HFFM",
 "Mentions 10th year of the program",
-"Draws similarity between himself and students' parents"
+"Draws similarity between himself and students' parents",
 "Emotional bandwidth or emotional units",
 "Speaks highly of 3 or more EHP alumni",
 "Goes over what other EHP events we do",
@@ -73,7 +73,7 @@ var bbqStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "2 or more random/pointless EHP statistics or records",
 "\"I sincerely hope\"",
 "Any swear word",
-]
+];
 
 var hardcodedStrings = bbqStrings.slice()
 
