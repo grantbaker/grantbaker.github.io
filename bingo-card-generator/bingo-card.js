@@ -75,7 +75,46 @@ var bbqStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "Any swear word",
 ];
 
-var hardcodedStrings = bbqStrings.slice()
+var banquetStringsV2 = ["\"Welcome to ___ on this most excellent of all ___\"",
+"\"___-ness of ___\"",
+"\"Ambitious without being competitive\"",
+"The great EHP experiment",
+"The greatest resource engineering students have is their peers",
+"\"And there you have that\"",
+"\"Deeply deeply\"",
+"\"What does it mean to ___?\"",
+"\"And again\" or \"and another thing\"",
+"Integration over small life events/sum of infinite infinitesimally small moments",
+"Blind chance",
+"Any Russian word",
+"\"Being about ___\"",
+"Game of Thrones",
+"Harry Potter",
+"Babette's Feast",
+"\"For those of you...\"",
+"Mentions bowtie count",
+"\"Dominate your exams\"",
+"Any Greek word, other than &#913&#915&#921&#927&#925 &#931&#922&#933&#914&#913&#923&#927&#925",
+"\"Totally\" as the only response to a student's answer",
+"HFFM",
+"Dating unit or entanglement unit",
+"Emotional bandwidth or emotional units",
+"Speaks highly of 3 or more EHP alumni",
+"\"Failing better\"",
+"\"SO, ...\" where \"so\" is 10x louder than the rest",
+"\"___ of ___ fame\"",
+"References Plato, Dostoevsky, or Merton",
+"\"We don't talk about statistics, but... (insert statistic here)\"",
+"\"geworfenheit\" or \"ostranenie\"",
+"Uses physics/math metaphor to explain philosophical concept",
+"2 or more random/pointless EHP statistics or records",
+"\"I sincerely hope\"",
+"Any swear word",
+"Asks students to quote a specific passage from a specific text",
+"\"Fighting for the future of our existence\""
+];
+
+var hardcodedStrings = banquetStringsV2.slice()
 
 var usedNums = new Array(hardcodedStrings.length);
 
