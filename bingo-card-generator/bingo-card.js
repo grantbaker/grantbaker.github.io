@@ -60,7 +60,7 @@ var bbqStrings = ["\"Welcome to ___ on this most excellent of all ___\"",
 "Mentions conflict with Housing",
 "Any Greek word, other than &#913&#915&#921&#927&#925 &#931&#922&#933&#914&#913&#923&#927&#925",
 "HFFM",
-"Mentions 10th year of the program",
+"Mentions 11th year of the program",
 "Draws similarity between himself and students' parents",
 "Emotional bandwidth or emotional units",
 "Speaks highly of 3 or more EHP alumni",
@@ -114,7 +114,7 @@ var banquetStringsV2 = ["\"Welcome to ___ on this most excellent of all ___\"",
 "\"Fighting for the future of our existence\""
 ];
 
-var hardcodedStrings = banquetStringsV2.slice()
+var hardcodedStrings = bbqStrings.slice()
 
 var usedNums = new Array(hardcodedStrings.length);
 
