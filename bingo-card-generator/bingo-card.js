@@ -121,6 +121,9 @@ var usedNums = new Array(hardcodedStrings.length);
 function initAll() {
   if (document.getElementById) {
     // document.getElementById("reload").onclick = anotherCard;
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", "https://lazyleven.com/scotbingo", true); // true for asynchronous 
+    xmlHttp.send(null);
     newCard();
 
   }
